@@ -1,13 +1,5 @@
 #!/bin/bash
 
-output(){
-    echo -e '\e[36m'$1'\e[0m';
-}
-
-warn(){
-    echo -e '\e[31m'$1'\e[0m';
-}
-
 copyright(){
     output "翼龍控制面板安裝 & 升級程式 v3"
     output "想要遊玩小遊戲並有低延遲的享受嗎? 快到【mc.widh.ga】"
